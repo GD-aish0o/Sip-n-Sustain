@@ -1,6 +1,9 @@
 body{background-image: url(/img/coffee-bg.jfif);
+  background-size: cover; 
+  background-repeat: no-repeat;
   font-family: sans-serif;
   padding: 20px;
+  
 }
 
 h1 {
@@ -127,7 +130,7 @@ a:active {
 
 /* Apply the hover effect */
 .li-logo:hover, .gt-logo:hover, .ml-logo:hover {
-    transform: scale(2.2); /* Increase the size on hover */
+    transform: scale(1.4); /* Increase the size on hover */
 }
 
 .Note{
